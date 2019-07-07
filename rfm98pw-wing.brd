@@ -1029,7 +1029,7 @@ design rules under a new name.</description>
 <element name="D0" library="xose" package="0805_DIODE" value="DIODE-SMD" x="42.926" y="14.4018" smashed="yes">
 <attribute name="VALUE" x="44.45" y="15.1638" size="0.8128" layer="27" font="vector" ratio="15" align="bottom-right"/>
 </element>
-<element name="U$11" library="xose" package="0805" value="10K" x="45.466" y="17.526" smashed="yes" rot="R90">
+<element name="R1" library="xose" package="0805" value="10K" x="45.466" y="17.526" smashed="yes" rot="R90">
 <attribute name="VALUE" x="44.704" y="19.05" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" align="bottom-right"/>
 </element>
 <element name="L1" library="Spark" package="0805" value="" x="42.926" y="4.4196" smashed="yes">
@@ -1050,7 +1050,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C3" pad="2"/>
-<contactref element="U$11" pad="1"/>
+<contactref element="R1" pad="1"/>
 <contactref element="X1" pad="GND@4"/>
 <contactref element="X1" pad="GND@2"/>
 <contactref element="X1" pad="GND@3"/>
@@ -1198,7 +1198,7 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
 <contactref element="D0" pad="C"/>
-<contactref element="U$11" pad="2"/>
+<contactref element="R1" pad="2"/>
 <wire x1="43.826" y1="14.4018" x2="43.826" y2="16.4084" width="0.1524" layer="1"/>
 <wire x1="43.826" y1="16.4084" x2="43.826" y2="18.415" width="0.1524" layer="1"/>
 <wire x1="43.826" y1="18.415" x2="43.688" y2="18.553" width="0.1524" layer="1"/>

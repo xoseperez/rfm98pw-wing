@@ -2492,29 +2492,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="DIO5" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="3V3" x="2.54" y="12.7" visible="pad" length="short" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="DINA4_L">
-<frame x1="0" y1="0" x2="264.16" y2="180.34" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="7.62" width="0.1016" layer="94"/>
-<wire x1="0" y1="7.62" x2="101.6" y2="7.62" width="0.1016" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="20.32" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="20.32" x2="101.6" y2="7.62" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="20.32" x2="0" y2="20.32" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="7.62" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="27.94" width="0.1016" layer="94"/>
-<wire x1="0" y1="27.94" x2="101.6" y2="27.94" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="27.94" x2="101.6" y2="20.32" width="0.1016" layer="94"/>
-<text x="2.54" y="2.54" size="2.54" layer="94">Version:</text>
-<text x="17.78" y="2.54" size="2.54" layer="94">&gt;PROJECT_VERSION</text>
-<text x="2.54" y="22.86" size="2.54" layer="94">Title:</text>
-<text x="17.78" y="22.86" size="2.54" layer="94">&gt;PROJECT_NAME</text>
-<text x="2.54" y="10.16" size="2.54" layer="94">License:</text>
-<text x="2.54" y="15.24" size="2.54" layer="94">Author:</text>
-<text x="17.78" y="10.16" size="2.54" layer="94">&gt;PROJECT_LICENSE</text>
-<text x="17.78" y="15.24" size="2.54" layer="94">&gt;PROJECT_AUTHOR</text>
-</symbol>
 <symbol name="CAPACITOR">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
@@ -2546,6 +2523,29 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="DINA4_L">
+<frame x1="0" y1="0" x2="264.16" y2="180.34" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.1016" layer="94"/>
+<wire x1="0" y1="7.62" x2="101.6" y2="7.62" width="0.1016" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="20.32" x2="101.6" y2="7.62" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="20.32" x2="0" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="7.62" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="0" y1="27.94" x2="101.6" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="20.32" width="0.1016" layer="94"/>
+<text x="2.54" y="2.54" size="2.54" layer="94">Version:</text>
+<text x="17.78" y="2.54" size="2.54" layer="94">&gt;PROJECT_VERSION</text>
+<text x="2.54" y="22.86" size="2.54" layer="94">Title:</text>
+<text x="17.78" y="22.86" size="2.54" layer="94">&gt;PROJECT_NAME</text>
+<text x="2.54" y="10.16" size="2.54" layer="94">License:</text>
+<text x="2.54" y="15.24" size="2.54" layer="94">Author:</text>
+<text x="17.78" y="10.16" size="2.54" layer="94">&gt;PROJECT_LICENSE</text>
+<text x="17.78" y="15.24" size="2.54" layer="94">&gt;PROJECT_AUTHOR</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RFM95PW-RFM98PW">
@@ -2571,21 +2571,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <connect gate="G$1" pin="SCK" pad="SCK"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DINA4_L" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with extra doc field</description>
-<gates>
-<gate name="G$1" symbol="DINA4_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="162.56" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3419,6 +3404,21 @@ DIN A4, landscape with extra doc field</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DINA4_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with extra doc field</description>
+<gates>
+<gate name="G$1" symbol="DINA4_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="162.56" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4389,7 +4389,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 </libraries>
 <attributes>
 <attribute name="PROJECT_AUTHOR" value="Tinkerman &lt;xose.perez@gmail.com&gt;"/>
-<attribute name="PROJECT_LICENSE" value="CC-SA-BY-NC 4.0 Intl."/>
+<attribute name="PROJECT_LICENSE" value="CC-BY-SA 4.0 Intl."/>
 <attribute name="PROJECT_NAME" value="RFM98PW Feather Wing"/>
 <attribute name="PROJECT_VERSION" value="0.1.20190707"/>
 </attributes>
@@ -4408,12 +4408,6 @@ SRN6045- 33uH, 20% 1.4A</description>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X12" device=""/>
 <part name="X4" library="adafruit" deviceset="ANTENNA_U.FL" device="" value="uFL"/>
 <part name="U$24" library="xose" deviceset="RFM95PW-RFM98PW" device=""/>
-<part name="FRAME1" library="xose" deviceset="DINA4_L" device="">
-<attribute name="PROJECT_AUTHOR" value=""/>
-<attribute name="PROJECT_LICENSE" value=""/>
-<attribute name="PROJECT_NAME" value=""/>
-<attribute name="PROJECT_VERSION" value=""/>
-</part>
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE"/>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="VBUS" device=""/>
@@ -4428,16 +4422,16 @@ SRN6045- 33uH, 20% 1.4A</description>
 <part name="D2" library="xose" deviceset="DIODE" device="-SMD"/>
 <part name="D1" library="xose" deviceset="DIODE" device="-SMD"/>
 <part name="D0" library="xose" deviceset="DIODE" device="-SMD"/>
-<part name="U$11" library="xose" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R1" library="xose" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="L1" library="Spark" deviceset="INDUCTOR-SPARKFUN" device="0805"/>
+<part name="FRAME1" library="xose" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="83.82" size="1.778" layer="94">BREAKOUTS</text>
 </plain>
 <instances>
 <instance part="U$19" gate="G$1" x="162.56" y="116.84" smashed="yes" rot="R90">
@@ -4447,7 +4441,6 @@ SRN6045- 33uH, 20% 1.4A</description>
 <attribute name="VALUE" x="161.544" y="120.396" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="A" x="226.06" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="232.41" y="80.645" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="232.41" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="213.36" y="124.46" smashed="yes">
@@ -4457,20 +4450,12 @@ SRN6045- 33uH, 20% 1.4A</description>
 <attribute name="VALUE" x="236.22" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="JP3" gate="G$1" x="195.58" y="106.68" smashed="yes">
-<attribute name="NAME" x="189.23" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.23" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="X4" gate="G$1" x="66.04" y="58.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="76.2" y="55.88" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="U$24" gate="G$1" x="68.58" y="121.92" smashed="yes"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="PROJECT_NAME" x="180.34" y="22.86" size="2.54" layer="94"/>
-<attribute name="PROJECT_AUTHOR" x="180.34" y="15.24" size="2.54" layer="94"/>
-<attribute name="PROJECT_VERSION" x="180.34" y="2.54" size="2.54" layer="94"/>
-<attribute name="PROJECT_LICENSE" x="180.34" y="10.16" size="2.54" layer="94"/>
-</instance>
 <instance part="X1" gate="G$1" x="99.06" y="66.04" smashed="yes">
 <attribute name="NAME" x="106.68" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="106.68" y="66.04" size="1.27" layer="95"/>
@@ -4518,7 +4503,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 <instance part="D0" gate="G$1" x="101.6" y="111.76" smashed="yes">
 <attribute name="NAME" x="101.6" y="109.22" size="0.8128" layer="95" font="vector" ratio="15" align="bottom-center"/>
 </instance>
-<instance part="U$11" gate="G$1" x="116.84" y="106.68" smashed="yes" rot="R90">
+<instance part="R1" gate="G$1" x="116.84" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.57" y="106.68" size="0.8128" layer="94" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="118.11" y="106.68" size="0.8128" layer="94" font="vector" ratio="15" rot="R90" align="top-center"/>
 </instance>
@@ -4534,6 +4519,13 @@ SRN6045- 33uH, 20% 1.4A</description>
 <instance part="L1" gate="G$1" x="43.18" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.1" y="68.58" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.26" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
+<attribute name="PROJECT_VERSION" x="180.34" y="2.54" size="2.54" layer="94"/>
+<attribute name="PROJECT_NAME" x="180.34" y="22.86" size="2.54" layer="94"/>
+<attribute name="PROJECT_LICENSE" x="180.34" y="10.16" size="2.54" layer="94"/>
+<attribute name="PROJECT_AUTHOR" x="180.34" y="15.24" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -4573,7 +4565,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="55.88" y1="55.88" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U$16" gate="G$1" pin="GND"/>
 <wire x1="116.84" y1="101.6" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -4772,7 +4764,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 <pinref part="D0" gate="G$1" pin="C"/>
 <wire x1="104.14" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="111.76" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="114.3" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
 <junction x="116.84" y="114.3"/>
 <label x="119.38" y="114.3" size="1.778" layer="95"/>
